@@ -1,0 +1,19 @@
+.env
+
+# Created by https://www.toptal.com/developers/gitignore/api/ansible,packer
+# Edit at https://www.toptal.com/developers/gitignore?templates=ansible,packer
+
+### Ansible ###
+*.retry
+
+### Packer ###
+# Cache objects
+packer_cache/
+
+# Crash log
+crash.log
+
+# For built boxes
+*.box
+
+# End of https://www.toptal.com/developers/gitignore/api/ansible,packer

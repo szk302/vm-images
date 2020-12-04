@@ -1,0 +1,9 @@
+---
+
+- name: Install git
+  win_chocolatey:
+    name: git
+    package_params: "/GitAndUnixToolsOnPath"
+- name: Install aws cli
+  win_chocolatey:
+    name: awscli

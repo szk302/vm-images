@@ -1,0 +1,13 @@
+---
+
+- name: Create a User
+  win_user:
+    name: User01
+    password: Passw0rd!!
+    state: present
+    groups: "Administrators"
+    groups_action: 'add'
+- name: Create a profile for an account
+  win_user_profile:
+    username: User01
+    state: present
